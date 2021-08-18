@@ -1,6 +1,6 @@
 import React, { createRef, useEffect, useState } from "react";
 
-import { Input, Alert } from "@chakra-ui/react";
+import { Input } from "@chakra-ui/react";
 
 import RandomBtn from "../randombtn/randombtn";
 import ShowRndomNumber from "../showRandomNumber/showRandomNumber";
@@ -9,7 +9,6 @@ import Toast from "../toast/toast";
 const Random = () => {
   const [count, setCount] = useState(0);
   const [min, setMin] = useState(0);
-  const [show, setShow] = useState(false);
 
   const inputRef = createRef();
 
